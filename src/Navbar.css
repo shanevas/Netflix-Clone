@@ -1,0 +1,30 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    z-index: 1;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+}
+
+.nav_black{
+    background-color: #111;
+}
+
+
+.nav_logo{
+    height: 50px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.nav_search{
+    height: 25px;
+    object-fit: contain;
+    margin-right: 30px;
+    margin-top: 15px;
+    color: white;
+}
